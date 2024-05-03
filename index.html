@@ -27,6 +27,62 @@
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .resume-wrap {
+        background: #3b4957;
+        height: 550px; /* Adjust the height as per your requirement */
+        overflow: auto; /* Add overflow for cases where content exceeds height */
+      }
+
+      .blog-entry {
+        padding: 20px;
+        height: 680px; /* Adjust the height as per your requirement */
+        width: 600px;
+        overflow: auto;
+        background: #3b4957;
+        border-radius: 5px;
+      }
+
+      .social-icons li {
+        display: inline-block;
+        margin-right: 40px; /* Adjust spacing between icons */
+      }
+
+      .social-icons li a {
+        color: #fff; /* Icon color */
+        font-size: 34px; /* Icon size */
+      }
+
+      .social-icons li a:hover {
+        color: #865115; /* Hover color */
+      }
+
+      .blog-form {
+        margin-bottom: 20px;
+      }
+
+      #blog-content {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+
+      #blog-posts {
+        margin-top: 20px;
+      }
+
+      .blog-post {
+        margin-bottom: 20px;
+      }
+
+      .blog-post img {
+        max-width: 100%;
+      }
+
+      .blog-post .content {
+        display: none;
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav
@@ -87,18 +143,18 @@
               class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
               data-scrollax-parent="true"
             >
-            <div
-            class="one-third js-fullheight order-md-last img"
-            style="
-              background-image: url(images/bg_1.png);
-              position: absolute;
-              top: 5vh;
-              left: 55vw;
-              width: 35vw;
-              height: 40vh;
-             
-            "
-          ></div>
+              <div
+                class="one-third js-fullheight order-md-last img"
+                style="
+           
+                  background-image: url(images/bg_1.png);
+                  position: absolute;
+                  top: 3vh;
+                  left: 50vw;
+                  width: 40vw;
+                  height: 45vh;
+                "
+              ></div>
 
               <div
                 class="one-forth d-flex align-items-center ftco-animate"
@@ -317,7 +373,7 @@
                 >
               </p>
               <iframe
-                src="pdf/1711303134787.jpeg"
+                src="pdf/1711303134787.pdf"
                 width="100%"
                 height="50%"
                 frameborder="0"
@@ -579,7 +635,7 @@
               <a
                 href="https://github.com/sachithdissanayaka99/social_app_with_simple-microservice-architecture"
                 class="block-20"
-                style="background-image: url('images/image_7.png')"
+                style="background-image: url('images/image_7.jpg')"
               ></a>
               <div class="text mt-3 float-right d-block">
                 <h3 class="heading">
@@ -606,6 +662,7 @@
         >
       </div>
     </section>
+
 
     <section
       class="ftco-section contact-section ftco-no-pb"
@@ -704,19 +761,6 @@
                 learning and growing in the field. Reach out to me to discuss
                 collaborations and projects!
               </p>
-              <ul
-                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
-              >
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-twitter"></span></a>
-                </li>
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-facebook"></span></a>
-                </li>
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-instagram"></span></a>
-                </li>
-              </ul>
             </div>
           </div>
           <div class="col-md">
@@ -756,38 +800,43 @@
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
                 <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Web
-                    Design</a
-                  >
+                  <a href="#">
+                    <span class="icon-long-arrow-right mr-2"></span>Full Stack
+                    Development(Mobile and Web)
+                  </a>
                 </li>
+
+                <!-- Add DevOps and Automation -->
                 <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Web
-                    Development</a
-                  >
+                  <a href="#">
+                    <span class="icon-long-arrow-right mr-2"></span>DevOps and
+                    Automation
+                  </a>
                 </li>
+                <!-- Add IoT Solutions -->
                 <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Business
-                    Strategy</a
-                  >
+                  <a href="#">
+                    <span class="icon-long-arrow-right mr-2"></span>IoT
+                  </a>
                 </li>
+                <!-- Add Cloud Computing Solutions -->
                 <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Data
-                    Analysis</a
-                  >
+                  <a href="#">
+                    <span class="icon-long-arrow-right mr-2"></span>Cloud
+                    Computing
+                  </a>
                 </li>
+                <!-- Add Software Development Services -->
                 <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Graphic
-                    Design</a
-                  >
+                  <a href="#">
+                    <span class="icon-long-arrow-right mr-2"></span>Software
+                    Development
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
+
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -819,6 +868,45 @@
             </div>
           </div>
         </div>
+
+        <div class="text-center">
+          <ul class="social-icons">
+            <li class="ftco-animate">
+              <a href="https://github.com/sachithdissanayaka99" target="_blank">
+                <span class="icon-github"></span>
+                <!-- Use GitHub icon -->
+              </a>
+            </li>
+            <li class="ftco-animate">
+              <a
+                href="https://www.linkedin.com/in/sachith-dissanayaka/"
+                target="_blank"
+              >
+                <span class="icon-linkedin"></span>
+                <!-- Use LinkedIn icon -->
+              </a>
+            </li>
+            <li class="ftco-animate">
+              <a
+                href="https://medium.com/@sachithdissanayaka1357"
+                target="_blank"
+              >
+                <span class="icon-medium"></span>
+                <!-- Use Medium icon -->
+              </a>
+            </li>
+            <li class="ftco-animate">
+              <a
+                href="https://people.ce.pdn.ac.lk/students/e19/087/"
+                target="_blank"
+              >
+                <span class="icon-university"></span>
+                <!-- Use University icon -->
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
@@ -859,6 +947,8 @@
         />
       </svg>
     </div>
+
+   
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
