@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Linux</title>
+    
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+        h2, h3, h4 {
+            color: #555;
+            margin-top: 20px;
+        }
+        p {
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Additional CSS styles */
+        .additional-content {
+            margin-top: 30px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        .additional-content h4 {
+            color: #333;
+        }
+        .additional-content p {
+            color: #777;
+        }
+        .additional-content ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .additional-content ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Beginner's Guide to Linux OS & Command Line</h2>
+        <img src="assets/img/blog/linux.webp" alt="Linux Command Line" />
+        <p>If you're new to Linux and feeling overwhelmed by the command line interface, don’t worry; you’re not alone! Linux commands may seem daunting at first, but once you get the hang of them, you’ll find that they’re incredibly powerful and efficient.</p>
+
+        <h2>Architecture of Linux</h2>
+        <p>Linux organizes its file system in a hierarchical structure. Here are some important directories:</p>
+        <img src="assets/img/blog/linux_struc.webp" alt="Linux Command Line" />
+        <ul>
+            <li><strong>Home Directories:</strong> <code>/root</code>, <code>/home/username</code></li>
+            <li><strong>User Executables:</strong> <code>/bin</code>, <code>/usr/bin</code>, <code>/usr/local/bin</code></li>
+            <li><strong>System Executables:</strong> <code>/sbin</code>, <code>/usr/sbin</code>, <code>/usr/local/sbin</code></li>
+            <li><strong>Other Mountpoints:</strong> <code>/media</code>, <code>/mnt</code></li>
+            <li><strong>Configuration:</strong> <code>/etc</code></li>
+            <li><strong>Temporary Files:</strong> <code>/tmp</code></li>
+            <li><strong>Kernels and Bootloader:</strong> <code>/boot</code></li>
+            <li><strong>Server Data:</strong> <code>/var</code>, <code>/srv</code></li>
+            <li><strong>System Information:</strong> <code>/proc</code>, <code>/sys</code></li>
+            <li><strong>Shared Libraries:</strong> <code>/lib</code>, <code>/usr/lib</code>, <code>/usr/local/lib</code></li>
+        </ul>
+        
+        <h2>Important Commands In Linux</h2>
+        <p>Here are some basic Linux commands that every beginner should know:</p>
+        <ol>
+            <li><code>ls</code>: List files and directories</li>
+            <li><code>cd</code>: Change directories</li>
+            <li><code>pwd</code>: Print the current working directory</li>
+            <li><code>mkdir</code>: Create a new directory</li>
+            <li><code>rmdir</code>: Remove an empty directory</li>
+            <li><code>touch</code>: Create a new empty file</li>
+            <li><code>rm</code>: Remove files or directories</li>
+            <li><code>cp</code>: Copy files or directories</li>
+            <li><code>mv</code>: Move or rename files or directories</li>
+            <li><code>cat</code>: Concatenate and display the contents of files</li>
+        </ol>
+
+        <h3>Examples:</h3>
+        <pre>
+$ ls
+$ cd Documents
+$ pwd
+$ mkdir my_directory
+$ rmdir my_empty_directory
+$ touch new_file.txt
+$ rm old_file.txt
+$ cp file.txt backup/file_backup.txt
+$ mv file.txt Documents/file.txt
+$ cat file.txt
+        </pre>
+
+        <h2>Getting Started with Linux</h2>
+        <p>Now that you have a basic understanding of some essential Linux commands, it's time to dive in and start exploring! Don't be afraid to experiment and make mistakes; that's how you'll learn the most.</p>
+
+        <h2>Additional Resources</h2>
+        <p>For more in-depth tutorials and guides on Linux command line, check out these resources:</p>
+        <ul>
+          <li><a href="https://www.linux.com/learn/" target="_blank">Linux.com</a></li>
+          <li><a href="https://linuxjourney.com/" target="_blank">Linux Journey</a></li>
+          <li><a href="https://ubuntu.com/tutorials" target="_blank">Ubuntu Tutorials</a></li>
+        </ul>
+
+        <h2>Linux Distributions</h2>
+        <p>Linux comes in various distributions, each with its own unique features and target audience. Some popular Linux distributions include:</p>
+        <ul>
+            <li>Ubuntu</li>
+            <li>Debian</li>
+            <li>CentOS</li>
+            <li>Fedora</li>
+            <li>Arch Linux</li>
+            <li>Linux Mint</li>
+            <li>openSUSE</li>
+            <li>Red Hat Enterprise Linux (RHEL)</li>
+        </ul>
+        <p>Choose a distribution based on your requirements and preferences.</p>
+
+        <img src="assets/img/blog/0*mE3PmhYAkO-sNfV6.png" alt="Linux Command Line" />
+    </div>
+</body>
+</html>
